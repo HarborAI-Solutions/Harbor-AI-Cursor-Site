@@ -9,49 +9,73 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="tailwind.css">
     <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-white text-gray-800">
-    <header class="bg-blue-600 text-white p-4">
-        <h1 class="text-3xl font-bold">Harbor AI</h1>
+    <header>
+        <div class="container">
+            <h1 class="text-3xl font-bold">Harbor AI</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    
     <main>
-        <section class="hero bg-blue-500 text-white p-8">
-            <h2 class="text-4xl font-bold">Harbor AI: Empowering Businesses with AI Workflows and Automation</h2>
-            <p class="text-xl">Transform your operations and websites with cutting-edge AI solutions for workflows, automation, and development.</p>
-            <a href="contact.html" class="mt-4 inline-block bg-white text-blue-500 font-bold py-2 px-4 rounded">Get a Free Consultation</a>
+        <section class="hero">
+            <div class="container">
+                <h2>Harbor AI: Empowering Businesses with AI Workflows and Automation</h2>
+                <p>Transform your operations and websites with cutting-edge AI solutions for workflows, automation, and development.</p>
+                <a href="contact.html" class="cta-button">Get a Free Consultation</a>
+            </div>
         </section>
-        <section class="overview p-8">
-            <h3 class="text-2xl font-bold">Our Services</h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-                <div class="service bg-gray-100 p-4 rounded">
-                    <h4 class="font-bold">AI Workflows</h4>
-                    <p>Streamline operations with intelligent processes.</p>
-                </div>
-                <div class="service bg-gray-100 p-4 rounded">
-                    <h4 class="font-bold">Automation</h4>
-                    <p>Boost efficiency with automated systems.</p>
-                </div>
-                <div class="service bg-gray-100 p-4 rounded">
-                    <h4 class="font-bold">Website Development/Enhancement</h4>
-                    <p>Build and optimize high-performing websites.</p>
+        
+        <section class="overview">
+            <div class="container">
+                <h3 class="section-title">Our Services</h3>
+                <div class="service-grid">
+                    <div class="service">
+                        <h3>AI Workflows</h3>
+                        <p>Streamline operations with intelligent processes that adapt to your business needs and optimize productivity.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Automation</h3>
+                        <p>Boost efficiency with automated systems that reduce manual tasks and allow your team to focus on what matters most.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Website Development/Enhancement</h3>
+                        <p>Build and optimize high-performing websites that drive conversions and provide exceptional user experiences.</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="trust-signals p-8">
-            <p>Trusted by innovative companies</p>
-            <div class="logos-placeholder bg-gray-200 p-4 rounded">Add client logos here</div>
+        
+        <section class="trust-signals">
+            <div class="container">
+                <h3 class="section-title">Trusted by Innovative Companies</h3>
+                <div class="logos-placeholder">Add client logos here</div>
+            </div>
         </section>
     </main>
-    <footer class="bg-gray-800 text-white p-4">
-        <nav>
-            <ul class="flex justify-around">
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-        <p class="text-center mt-4">&copy; 2023 Harbor AI. All rights reserved.</p>
+    
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+            <p class="text-center mt-4">&copy; 2023 Harbor AI. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
