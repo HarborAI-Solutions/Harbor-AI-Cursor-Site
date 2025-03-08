@@ -1,0 +1,43 @@
+/* Custom styles for Harbor AI website */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #1E3A8A; /* Tailwind's blue-800 */
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg'); /* Placeholder for hero background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.service, .blog-post {
+    transition: transform 0.3s ease;
+}
+
+.service:hover, .blog-post:hover {
+    transform: translateY(-5px);
+}
