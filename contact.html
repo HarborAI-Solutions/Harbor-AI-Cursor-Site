@@ -3,51 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Harbor AI for AI Workflows, Automation, and Website Development">
+    <meta name="keywords" content="AI workflows, automation solutions, website development, Harbor AI, contact">
     <title>Contact Harbor AI</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="tailwind.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-white text-gray-800">
-    <header class="bg-blue-600 text-white p-4">
-        <h1 class="text-3xl font-bold">Contact Harbor AI</h1>
+    <header>
+        <div class="container">
+            <h1 class="text-3xl font-bold">Harbor AI</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main class="p-8">
-        <section>
-            <h2 class="text-2xl font-bold">Contact Harbor AI</h2>
-            <p>Ready to transform your business? Reach out to us for a free consultation on workflows, automation, or website solutions.</p>
-            <form class="mt-4">
-                <div class="mb-4">
-                    <label for="name" class="block text-sm font-bold">Name</label>
-                    <input type="text" id="name" name="name" class="w-full p-2 border rounded">
+    
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Contact Harbor AI</h2>
+                <p>Ready to transform your business? Reach out to us for a free consultation on workflows, automation, or website solutions.</p>
+            </div>
+        </section>
+        
+        <section class="overview">
+            <div class="container">
+                <h3 class="section-title">Get in Touch</h3>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                
+                <div class="contact-info">
+                    <h3 class="section-title">Contact Information</h3>
+                    <p><strong>Email:</strong> contact@harborai.com</p>
+                    <p><strong>Phone:</strong> +1-555-123-4567</p>
+                    <p><strong>Address:</strong> 123 Tech Lane, Silicon Valley, CA</p>
+                    <div class="map-placeholder">
+                        <p>Google Maps embed will be placed here</p>
+                    </div>
                 </div>
-                <div class="mb-4">
-                    <label for="email" class="block text-sm font-bold">Email</label>
-                    <input type="email" id="email" name="email" class="w-full p-2 border rounded">
-                </div>
-                <div class="mb-4">
-                    <label for="message" class="block text-sm font-bold">Message</label>
-                    <textarea id="message" name="message" class="w-full p-2 border rounded"></textarea>
-                </div>
-                <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded">Submit</button>
-            </form>
-            <div class="mt-8">
-                <p>Email: contact@harborai.com</p>
-                <p>Phone: +1-555-123-4567</p>
-                <p>Address: 123 Tech Lane, Silicon Valley, CA</p>
-                <div class="map-placeholder bg-gray-200 p-4 rounded">Add Google Maps embed here</div>
             </div>
         </section>
     </main>
-    <footer class="bg-gray-800 text-white p-4">
-        <nav>
-            <ul class="flex justify-around">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-        <p class="text-center mt-4">&copy; 2023 Harbor AI. All rights reserved.</p>
+    
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+            <p class="text-center mt-4">&copy; 2023 Harbor AI. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
